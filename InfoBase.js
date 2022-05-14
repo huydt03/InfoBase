@@ -8,7 +8,7 @@ function InfoBase(id, info) {
 
 	let handle;
 
-	let self = {id, info};
+	let self = {id, info, getInfo: function(){}};
 
 	function capitalizeFirstLetter(string) {
 	  return string.charAt(0).toUpperCase() + string.slice(1);
